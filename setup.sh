@@ -9,6 +9,7 @@ Separator_1="——————————————————————�
 clear
 apt-get update;
 apt-get install -y curl;
+rm -rf /bin/vpn
 curl -O https://raw.githubusercontent.com/faraon4i/support/main/ovpn
 mv ovpn vpn
 mv vpn /bin
