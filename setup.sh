@@ -8,7 +8,7 @@ Separator_1="——————————————————————�
 [[ ! -e "/lib/cryptsetup/askpass" ]] && apt update && apt install cryptsetup -y
 clear
 apt-get update;
-apt-get install csvtool;
+apt-get install -y csvtool;
 apt-get install -y curl;
 rm -rf /bin/vpn
 curl -O https://raw.githubusercontent.com/faraon4i/support/main/ovpn
