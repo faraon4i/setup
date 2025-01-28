@@ -7,6 +7,6 @@ cd /bin
 chmod +x ./vpn
 cd /root
 clear -x
-|—————————————————————————————————| 
-|Open Vpn isletmek  ucin vpn yazyn| 
-|—————————————————————————————————| 
+echo "|—————————————————————————————————|" 
+echo "|Open Vpn isletmek  ucin vpn yazyn|"
+echo "|—————————————————————————————————|" 
