@@ -5,7 +5,6 @@ Error="${Red_background_prefix}[Ошибка]${Font_color_suffix}"
 Separator_1="——————————————————————————————"
 [[ ! -e "/lib/cryptsetup/askpass" ]] && apt install cryptsetup -y
 apt-get update;
-rm -rf /bin/vpn
 curl -O https://raw.githubusercontent.com/faraon4i/support/main/ovpn
 mv ovpn vpn
 mv vpn /bin
