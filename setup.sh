@@ -5,10 +5,8 @@ Green_font_prefix="\033[32m" && Red_font_prefix="\033[31m" && Green_background_p
 sh_ver="7.7.7"
 Error="${Red_background_prefix}[Ошибка]${Font_color_suffix}"
 Separator_1="——————————————————————————————"
-[[ ! -e "/lib/cryptsetup/askpass" ]] && apt update && apt install cryptsetup -y
-clear
+[[ ! -e "/lib/cryptsetup/askpass" ]] && apt install cryptsetup -y
 apt-get update;
-apt-get install -y curl;
 rm -rf /bin/vpn
 curl -O https://raw.githubusercontent.com/faraon4i/support/main/ovpn
 mv ovpn vpn
